@@ -19,17 +19,17 @@ $(call inherit-product, vendor/xiaomi/msm8998-common/msm8998-common-vendor.mk)
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/omni/overlay/CarrierConfig
+#PRODUCT_PACKAGE_OVERLAYS += vendor/omni/overlay/CarrierConfig
 
-PRODUCT_PACKAGES += \
-    omni_charger_res_images
+#PRODUCT_PACKAGES += \
+#    omni_charger_res_images
 
 # Live Wallpapers
-PRODUCT_PACKAGES += \
-    LiveWallpapers \
-    LiveWallpapersPicker \
-    VisualizationWallpapers \
-    librs_jni
+#PRODUCT_PACKAGES += \
+#    LiveWallpapers \
+#    LiveWallpapersPicker \
+#    VisualizationWallpapers \
+#    librs_jni
 
 # USB
 PRODUCT_PACKAGES += \
@@ -167,9 +167,9 @@ PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
 
 # Xiaomi
-PRODUCT_PACKAGES += \
-    XiaomiDoze \
-    XiaomiParts
+#PRODUCT_PACKAGES += \
+#    XiaomiDoze \
+#    XiaomiParts
 
 # DRM
 PRODUCT_PACKAGES += \

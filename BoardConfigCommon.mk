@@ -207,9 +207,9 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(PLATFORM_PATH)
 # selinux
 include device/qcom/sepolicy/sepolicy.mk
 #include vendor/du/sepolicy/sepolicy.mk
-BOARD_SEPOLICY_DIRS += $(PLATFORM_PATH)/sepolicy/vendor
-BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(PLATFORM_PATH)/sepolicy/public
-BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(PLATFORM_PATH)/sepolicy/private
+#BOARD_SEPOLICY_DIRS += $(PLATFORM_PATH)/sepolicy/vendor
+#BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(PLATFORM_PATH)/sepolicy/public
+#BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(PLATFORM_PATH)/sepolicy/private
 
 BOARD_SECCOMP_POLICY += $(BOARD_PATH)/seccomp
 
